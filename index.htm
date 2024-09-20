@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/favicon-16x16 (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="mobil-nav">
+               <div class="logo">
+                <img src="/img/pj_logo_web_new.png" alt="" />
+               </div>
+               <div class="lg">
+                <img src="/img/flag_az.png" alt=""/>
+                <span>Az</span>
+               </div>
+               <div class="giris">
+                <i class="fa-solid fa-user"></i>
+                <span>Giriş</span>
+               </div>
+               <div class="sebet ">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <span>0 &#8380</span>
+               </div>
+            </div>
+              
+            <div id="desk-nav">
+                <div class="left">
+                  <a>Restoranlar</a>
+                  <a>PapaBonus</a>
+                </div>
+                <div class="right">
+                     <div class="desk-lg">
+                        <img src="/img/flag_az.png" alt=""/>
+                        <span>Azərbaycanca</span>
+                        <i class="fa-solid fa-angle-down"></i>
+                     </div>
+                     <div class="desk-giris">
+                        <a href="">Giriş/Qeydiyyat</a>
+                     </div>
+                     <div class="desk-sebet">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <p>0 &#8380</p>
+                     </div>
+                </div>
+            </div>
+        </nav>
+          <div class="logored">
+                <img src="/img/pj_logo_web_new.png" alt="" />
+               </div>
+        <div id="redlent"> </div>
+        <div class="promo">
+            <p>Promo kodunuz var? <span> Endirimdən istifadə edin!</span> </p>
+            <input type="text" placeholder="Promo kodu daxil edin">
+            <button>OK</button>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="types">
+            <ul class="piztype">
+                <li> <a href="#" onclick="getSpecies('Hamısı')">Hamısı</a></li>
+                <li><a onclick="getSpecies('chick')" href="#">Toyuqlu</a></li>
+                <li><a onclick="getSpecies('meat')" href="#">Ət ilə</a></li>
+                <li><a onclick="getSpecies('vegan')" href="#">Vegetarian</a></li>
+                <li><a onclick="getSpecies('spicy')" href="#">Acılı</a></li>
+            </ul>
+        </div>
+        <div class="cards"></div>
+    </main>
+    <footer> 
+        <div class="text">
+            <div class="ft-left">
+                <ul>
+                    <li><a href="">Haqqımızda</a></li>
+                    <li><a href="">Sual-Cavab</a></li>
+                    <li><a href="">Karyera</a></li>
+                    <li><a href="">Xəmir</a></li>
+                    <li><a href="">Papa Talk - Şərtlər və Qaydalar</a></li>
+                </ul>
+            </div>
+            <div class="ft-right">
+                <ul>
+                <li><a href="">Restoranlar</a></li>
+                <li><a href="">Kampaniyalar</a></li>
+                <li><a href="">PapaBonus</a></li>
+            </ul>
+            </div>
+
+
+
+        </div>
+            <div class="ft-orta">
+               <div class="footer-img"> <img src="/img/footer-images-az-AZ.png" alt=""/> </div>
+               <div class="ft-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+               </div>
+               <p> © PJA 2024</p>
+            </div>
+             
+            <div class="footer-desk">
+            <div class="desk-left">
+                <ul>
+                <li>© PJA 2024</li>
+                <li><a href="">Haqqımızda</a></li>
+                <li><a href="">Sual-Cavab</a></li>
+                <li><a href="">Karyera</a></li>
+                <li><a href="">Xəmir</a></li>
+                <li><a href="">Papa Talk - Şərtlər və Qaydalar</a></li>
+            </ul>
+            </div>
+
+            <div class="desk-right">
+                <img src="/img/footer-images-az-AZ.png" alt=""/>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
